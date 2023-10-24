@@ -1,0 +1,99 @@
+*,**{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:greenyellow;
+}
+
+.container{
+    margin-top:50px;
+    display:flex ;
+   justify-content: center;
+   
+} 
+
+h1{
+    color: rgb(247, 17, 124);
+    margin-top: 5px;
+    display:flex ;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+label{
+    font-size:15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.box{
+    color: black;
+    background-color: white;
+    width: 15%;
+    padding:20px 20px;
+    border-radius: 5px;
+    box-shadow: 6px -7px 8px ;
+    font-size: 80%;
+    margin:10px;
+    height: 20rem;
+}
+
+#email, #password{
+    margin-bottom: 10px;
+    width:80%; 
+    border-radius: 3px;
+    height: 20px;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+button[type="submit"] {
+
+    color: white;
+    cursor: pointer;
+    width: 10rem; height: 2rem;
+    border-radius: 3px;
+    background-color:rgb(247, 17, 124);
+
+}
+
+.fa{
+    padding:10px;
+    margin-left: 15px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.fa-google{
+    color: blue;
+}
+
+.psw{
+    margin-bottom: 40px;
+}
+
+.divider{
+    font-size: 20px;
+    font-weight: 5px;
+    width: 100px; 
+}
+
+/* .divider::before, .divider::after{
+    flex: 0.5;
+    content: **;
+    padding: 2px;
+    background-color: black;
+    margin:3px;
+    font-size-adjust:none;
+} */
+
+p{
+    font-size: small;
+}
